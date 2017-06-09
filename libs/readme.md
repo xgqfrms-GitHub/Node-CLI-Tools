@@ -15,6 +15,45 @@ $ npm i -S shelljs
 
 ```
 
+
+
+```js
+#!/usr/bin/env node
+var name = process.argv[2];
+var shell = require("shelljs");
+
+shell.exec("echo hello " + name); 
+
+```
+
+
+```sh
+    
+require('shelljs/global');
+
+if (!which('git')) {
+  echo('Sorry, this script requires git');
+  exit(1);
+}
+
+mkdir('-p', 'out/Release');
+cp('-R', 'stuff/*', 'out/Release');
+
+cd('lib');
+ls('*.js').forEach(function(file) {
+  sed('-i', 'BUILD_VERSION', 'v0.1.2', file);
+  sed('-i', /.*REMOVE_THIS_LINE.*\n/, '', file);
+  sed('-i', /.*REPLACE_LINE_WITH_MACRO.*\n/, cat('macro.js'), file);
+});
+cd('..');
+
+if (exec('git commit -am "Auto-commit"').code !== 0) {
+  echo('Error: Git commit failed');
+  exit(1);
+}
+```
+
+
 525,989 downloads in the last day
 
 2,780,019 downloads in the last week
@@ -37,6 +76,26 @@ https://www.npmjs.com/package/yargs
 $ npm i -S yargs
 
 
+```
+
+
+
+```js
+
+#!/usr/bin/env node
+var argv = require('yargs').argv;
+
+console.log('hello ', argv.name);
+```
+
+
+```sh
+
+$ hello --name=tom
+# hello tom
+
+$ hello --name tom
+# hello tom
 ```
 
 
