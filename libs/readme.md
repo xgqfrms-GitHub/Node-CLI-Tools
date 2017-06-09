@@ -9,14 +9,16 @@
 https://www.npmjs.com/package/shelljs
 
 ```sh
-     
+    
 $ npm i -S shelljs
 
 
 ```
 
 525,989 downloads in the last day
+
 2,780,019 downloads in the last week
+
 11,420,127 downloads in the last month
 
 
@@ -31,7 +33,7 @@ https://www.npmjs.com/package/yargs
 
 
 ```sh
-     
+    
 $ npm i -S yargs
 
 
@@ -39,7 +41,9 @@ $ npm i -S yargs
 
 
 1,303,854 downloads in the last day
+
 6,953,224 downloads in the last week
+
 28,452,092 downloads in the last month
 
 
