@@ -7,4 +7,3 @@ npm:
 os:
 - windows10 x64 pro
 script: npm run nct
-
