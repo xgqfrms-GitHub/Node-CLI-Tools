@@ -1,9 +1,7 @@
 language: node_js
-dist: dist
 node:
 - 6.10.3
 npm:
 - 5.0.2
 os:
 - windows10 x64 pro
-script: npm run nct
