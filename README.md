@@ -16,7 +16,7 @@
 $ npm i
 $ npm link
 
-# parameters can be ingnor
+# parameters can be ignore 
 
 $ nct [user_name, [repo_name]]
 $ nct user_name repo_name
