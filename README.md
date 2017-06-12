@@ -31,7 +31,13 @@ $ nct xgqfrms react
 
 ```
 
-![]()
+> `nct`
+
+![nct-test-ok](https://user-images.githubusercontent.com/18028768/27017239-b2dae7e4-4f59-11e7-9608-98d94c4f2d3b.png)
+
+> `nct xgqfrms react`
+
+![nct-react-test-ok](https://user-images.githubusercontent.com/18028768/27017256-c354d544-4f59-11e7-8669-fb383f507284.png)
 
 ## travis-ci
 
