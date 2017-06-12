@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+/**
+ * [nct : node cli tools]
+ * @type {[type]}
+ */
+
+const nct = require('./lib');
+
+let username = process.argv[2] ? process.argv[2] : `xgqfrms-GitHub`;
+    repo = process.argv[3] ? process.argv[3] : `Node-CLI-Tools`;
+
+nct(username, repo);
