@@ -56,11 +56,11 @@ Linux 用户组的权限:
 * `c` 字符设备
 
 
-
+```md
 作者： xgqfrms2015 
 链接：http://www.imooc.com/article/4777
 来源：慕课网
-
+```
 
 ![linux-chmod-755](https://user-images.githubusercontent.com/18028768/26973351-aad01b90-4d48-11e7-9911-59dcd44a8f61.png)
 
@@ -78,6 +78,7 @@ Linux 用户组的权限:
 
 ![cmd-chmod](https://user-images.githubusercontent.com/18028768/26973406-fb12ca1c-4d48-11e7-9fc0-7fe8e4f9d734.png)
 
+## CMD `clip`
 
 ![cmd clip](https://user-images.githubusercontent.com/18028768/26973350-aace0d50-4d48-11e7-9db3-ad3d07559a77.png)
 
