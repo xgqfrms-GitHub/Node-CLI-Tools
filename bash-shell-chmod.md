@@ -78,9 +78,18 @@ Linux 用户组的权限:
 
 ![cmd-chmod](https://user-images.githubusercontent.com/18028768/26973406-fb12ca1c-4d48-11e7-9fc0-7fe8e4f9d734.png)
 
-## CMD `clip`
+# CMD `clip`
 
 ![cmd clip](https://user-images.githubusercontent.com/18028768/26973350-aace0d50-4d48-11e7-9db3-ad3d07559a77.png)
 
 
 
+https://gist.github.com/xgqfrms-GitHub/e120a8ae3bd4c90ac13a68931d56658b
+
+
+![](https://camo.githubusercontent.com/95f1c42872d0fb9be1bd3b414021b22173687fb5/68747470733a2f2f696d672e6c61626e6f6c2e6f72672f64692f636f70792d746f2d636c6970626f6172642e676966)
+
+
+![](https://user-images.githubusercontent.com/18028768/27523171-16690b92-5a5e-11e7-847c-a5776c36df64.png)
+
+![](https://user-images.githubusercontent.com/18028768/26973350-aace0d50-4d48-11e7-9db3-ad3d07559a77.png)
