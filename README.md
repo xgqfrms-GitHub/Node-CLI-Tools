@@ -9,13 +9,21 @@
 - [ ] 能对 commit history 进行搜索 
 - [ ] 能查看指定时间范围的 commit history
 
-## run
+## link
 
 ```sh
-    
+
+# link `nct` to cli commands
+
 $ npm i
 $ npm link
 
+
+```
+
+## run
+
+```sh
 # parameters can be ignore
 
 $ nct [user_name, [repo_name]]
