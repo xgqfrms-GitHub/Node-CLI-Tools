@@ -9,9 +9,10 @@
 - [ ] 能对 commit history 进行搜索 
 - [ ] 能查看指定时间范围的 commit history
 
-## link
+## npm i & npm link
 
 ```sh
+    
 
 # link `nct` to cli commands
 
