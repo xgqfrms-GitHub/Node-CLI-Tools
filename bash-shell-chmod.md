@@ -1,8 +1,14 @@
 # bash-shell-chmod
 
+https://www.cnblogs.com/xgqfrms/p/9546961.html
+
 ```sh
     
 # chmod 755
+
+$ chmod 777
+$ chmod +x
+
 ```
 
 
