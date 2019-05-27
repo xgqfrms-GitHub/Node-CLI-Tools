@@ -7,15 +7,15 @@
 const fetch = require('node-fetch');
 const showdata = require('./showdata');
 
-// NODE_ENV_ID = `08ecc2f68d922f18800e`;
-// NODE_ENV_SECRET = `5846d428b5340812b76c9637eceaee979340b922`;
+// NODE_ENV_ID = ``;
+// NODE_ENV_SECRET = ``;
 
 const nct = (username, repo) => {
     let url = `https://api.github.com/repos/${username}/${repo}/commits`;
     let options = {
         data: {
-            client_id: `08ecc2f68d922f18800e`,
-            client_secret: `5846d428b5340812b76c9637eceaee979340b922`,
+            client_id: process.env.NODE_ENV_ID,
+            client_secret: process.env.NODE_ENV_SECRET,
         },
     };
     fetch(url, options)
