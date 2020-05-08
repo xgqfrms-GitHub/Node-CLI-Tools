@@ -1,7 +1,7 @@
 language: node_js
 node:
-- 6.10.3
+  - 6.10.3
 npm:
-- 5.0.2
+  - 5.0.2
 os:
-- windows10 x64 pro
+  - windows10 x64 pro
