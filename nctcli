@@ -8,7 +8,7 @@
 
 const nct = require('./libs');
 
-let username = process.argv[2] ? process.argv[2] : `xgqfrms-GitHub`,
-    repo = process.argv[3] ? process.argv[3] : `Node-CLI-Tools`;
+const username = process.argv[2] || `xgqfrms-GitHub`;
+const repo = process.argv[3] || `Node-CLI-Tools`;
 
 nct(username, repo);
