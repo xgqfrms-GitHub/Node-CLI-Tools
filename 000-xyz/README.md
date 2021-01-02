@@ -5,19 +5,19 @@
 1. 必选项:  
 - [x] 查看指定 git 仓库的 commit history 
 
-https://node-cli-tools.xgqfrms.xyz
+2. 加分项:  
+- [ ] 能对 commit history 进行搜索 
+- [ ] 能查看指定时间范围的 commit history
 
-https://www.npmjs.com/package/node-cli-tools
-
-## install
+## npm i & npm link
 
 ```sh
-$ yarn global add node-cli-tools
-# OR
-$ npm i -g node-cli-tools
+# link `nct` to cli commands
+
+$ npm i
+$ npm link
 
 ```
-
 ## run
 
 ```sh

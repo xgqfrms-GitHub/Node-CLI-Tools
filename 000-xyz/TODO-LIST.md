@@ -21,11 +21,7 @@ $ npm i -S node-cli-tools
 
 ```
 
-
-
-
-
-# markdown checkbox
+## markdown checkbox
 
 https://gist.github.com/xgqfrms-GitHub/851da880f68a4586f76c6a8b3ad14461
 

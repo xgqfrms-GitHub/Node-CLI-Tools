@@ -15,9 +15,7 @@ $ chmod +x
 > bash-shell-chmod 755
 
 
-
-
-# Linux 学习笔记分享
+## Linux 学习笔记分享
 
 http://www.imooc.com/article/4777
 

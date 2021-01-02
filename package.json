@@ -1,16 +1,42 @@
 {
-    "name": "node-cli-tools",
-    "version": "1.1.1",
-    "private": true,
-    "bin": {
-        "nct": "nctcli"
-    },
-    "scripts": {
-        "nct": "node nctcli",
-        "start": "node nctcli"
-    },
-    "dependencies": {
-        "colors": "^1.1.2",
-        "node-fetch": "^1.7.1"
-    }
+  "name": "node-cli-tools",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Node-CLI-Tools (nct)",
+  "author": "xgqfrms",
+  "license": "MIT",
+  "keywords": [
+    "Node-CLI-Tools",
+    "nct",
+    "node.js",
+    "cli",
+    "js"
+  ],
+  "main": "nctcli",
+  "bin": {
+    "nct": "nctcli"
+  },
+  "scripts": {
+    "nct": "node nctcli",
+    "start": "node nctcli"
+  },
+  "files": [
+    "libs/*",
+    "nctcli",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "colors": "^1.1.2",
+    "node-fetch": "^1.7.1"
+  },
+  "homepage": "https://node-cli-tools.xgqfrms.xyz/index.html#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgqfrms/node-cli-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xgqfrms/node-cli-tools/issues"
+  }
 }
