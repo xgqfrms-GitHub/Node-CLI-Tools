@@ -20,13 +20,12 @@ const nct = (username, repo) => {
     };
     fetch(url, options)
     .then((res) => res.json())
-    .then((json)=> {
-        // not need at all
-        return repos = json;
-    })
     .then((repos)=>{
         showdata(repos);
-    });
+    })
+    .catch(err) => {
+      console.log(`error info =`, err);
+    };
 };
 
 module.exports = nct;
